@@ -30,6 +30,7 @@ body {
 .middle-row {
     display: block;
     margin: 0 auto;
+    text-align: center;
 }
 .login-form{
     min-width: 150px;
@@ -43,7 +44,7 @@ body {
     text-align: center;
     width: auto;
     max-width: 100px;
-    height: 12px;
+    height: 10px;
 }
 .corner-image img {
     max-width: 100%;
