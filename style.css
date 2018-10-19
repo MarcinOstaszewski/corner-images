@@ -1,0 +1,72 @@
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0 auto;
+    background-color: #333;
+    height: 100vh;
+    bottom: 0;
+    overflow: hidden;
+}
+.wrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+}
+.middle-row {
+    /* justify-content: center; */
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.login-form{
+    /* /* position: absolute; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    top: 50%;
+    /* transform: translate(0%,+50%); */
+
+    /* padding: 15px;
+    height: 120px;
+    width: 160px; */
+    border: 1px solid #666;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-content: center; */
+    /* align-items: center; */
+    /* justify-items: center; */
+    /* justify-content: space-around; */
+}
+.login-field {
+    position: relative;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+    height: 20px;
+}
+.corner-image img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 616px) {
+    .corner-image {
+        /* max-width: 100%; */
+        /* height: auto; */
+        border: 1px solid red;
+    }
+}
