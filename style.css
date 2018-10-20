@@ -70,7 +70,7 @@ body {
         background-size: cover;
     }
     .login-form {
-        width: 120px;
+        min-width: 120px;
     }
     .login-field {
         width: 100px;
