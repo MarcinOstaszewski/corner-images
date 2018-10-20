@@ -35,8 +35,10 @@ body {
 .login-form{
     min-width: 150px;
     border: 1px solid #666;
+    max-width: 200px;
 }
 .login-field {
+    text-align: center;
     position: relative;
     display: block;
     margin: 10px 20px;
