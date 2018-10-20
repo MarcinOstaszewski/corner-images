@@ -42,12 +42,12 @@ body {
     text-align: center;
     position: relative;
     display: block;
-    margin: 10px auto;
-    padding: 10px;
+    margin: auto;
+    padding: 5px;
     text-align: center;
     width: auto;
     max-width: 100px;
-    height: 10px;
+    height: 12px;
 }
 .corner-image img {
     max-width: 100%;
