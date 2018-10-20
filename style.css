@@ -41,7 +41,6 @@ body {
     padding: 10px;
 }
 .login-field {
-    text-align: center;
     position: relative;
     display: block;
     margin: auto;
@@ -69,6 +68,12 @@ body {
 
     .corner-image img {
         background-size: cover;
+    }
+    .login-form {
+        width: 120px;
+    }
+    .login-field {
+        width: 100px;
     }
 }
 
