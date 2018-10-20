@@ -6,7 +6,7 @@ html {
     position: relative;
 }
 body {
-    margin: 0 auto;
+    margin: auto;
     background-color: #333;
     height: 100vh;
     bottom: 0;
@@ -31,6 +31,7 @@ body {
     display: block;
     margin: 0 auto;
     text-align: center;
+    justify-content: center;
 }
 .login-form{
     min-width: 150px;
