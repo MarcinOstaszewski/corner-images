@@ -87,7 +87,7 @@ body {
 .login-field {
     position: relative;
     display: block;
-    margin: auto;
+    margin: 10px auto;
     padding: 5px;
     text-align: center;
     width: auto;
