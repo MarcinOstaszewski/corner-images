@@ -99,6 +99,10 @@ body {
     color: #e6bb90;
     box-shadow: 1px 1px 1px #997b5f;
 }
+.login-field:focus {
+    outline: none !important;
+    border: 2px solid #cca67f;
+}
 ::-webkit-input-placeholder {  /* Chrome/Opera/Safari */
     color: #997b5f;
 }
